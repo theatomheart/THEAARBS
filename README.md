@@ -6,7 +6,7 @@ On an Arch-based distribution as root, run the following:
 
 ```
 curl -LO theatomheart.net/theaarbs.sh
-sh larbs.sh
+sh theaarbs.sh
 ```
 
 That's it.
