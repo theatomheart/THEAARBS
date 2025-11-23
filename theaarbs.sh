@@ -12,7 +12,8 @@ aurhelper="yay"
 repobranch="master"
 export TERM=ansi
 
-rssurls="https://lukesmith.xyz/rss.xml
+rssurls="http://news.ycombinator.com/rss \"tech\"
+https://lukesmith.xyz/rss.xml
 https://videos.lukesmith.xyz/feeds/videos.xml?videoChannelId=2 \"~Luke Smith (Videos)\"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA \"~Luke Smith (YouTube)\"
 https://lindypress.net/rss
