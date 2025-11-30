@@ -1,13 +1,11 @@
 #!/bin/sh
 
-# Luke's Auto Rice Bootstrapping Script (LARBS)
-# by Luke Smith <luke@lukesmith.xyz>
-# License: GNU GPLv3
+# Theatomheart's Auto Rice Bootstrapping Script (THEAARBS)
 
 ### OPTIONS AND VARIABLES ###
 
 dotfilesrepo="https://github.com/theatomheart/archconfig.git"
-progsfile="https://raw.githubusercontent.com/theatomheart/THEAARBS/master/static/progs.csv"
+progsfile="https://raw.githubusercontent.com/theatomheart/THEAARBS/master/progs.csv"
 aurhelper="yay"
 repobranch="master"
 export TERM=ansi
@@ -38,7 +36,7 @@ error() {
 
 welcomemsg() {
 	whiptail --title "Welcome!" \
-		--msgbox "Welcome to Luke's Auto-Rice Bootstrapping Script!\\n\\nThis script will automatically install a fully-featured Linux desktop, which I use as my main machine.\\n\\n-Luke" 10 60
+		--msgbox "Welcome to theatomheart's Auto-Rice Bootstrapping Script!\\n\\nThis script will automatically install a fully-featured Linux desktop, which I use as my main machine.\\n\\n-theatomheart" 10 60
 
 	whiptail --title "Important Note!" --yes-button "All ready!" \
 		--no-button "Return..." \
@@ -215,7 +213,7 @@ makeuserjs(){
 
 finalize() {
 	whiptail --title "All done!" \
-		--msgbox "Congrats! Provided there were no hidden errors, the script completed successfully and all the programs and configuration files should be in place.\\n\\nTo run the new graphical environment, log out and log back in as your new user, then run the command \"startx\" to start the graphical environment (it will start automatically in tty1).\\n\\n.t Luke" 13 80
+		--msgbox "Congrats! Provided there were no hidden errors, the script completed successfully and all the programs and configuration files should be in place.\\n\\nTo run the new graphical environment, log out and log back in as your new user, then run the command \"startx\" to start the graphical environment (it will start automatically in tty1).\\n\\n.t theatomheart" 13 80
 }
 
 ### THE ACTUAL SCRIPT ###
