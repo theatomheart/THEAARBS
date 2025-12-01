@@ -7,7 +7,7 @@
 dotfilesrepo="https://github.com/theatomheart/archconfig.git"
 progsfile="https://raw.githubusercontent.com/theatomheart/THEAARBS/master/progs.csv"
 aurhelper="yay"
-repobranch="master"
+repobranch="main"
 export TERM=ansi
 
 rssurls="http://news.ycombinator.com/rss \"tech\"
