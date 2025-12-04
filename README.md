@@ -11,7 +11,7 @@ sh theaarbs.sh
 
 That's it.
 
-## What is LARBS?
+## What is THEAARBS?
 
 THEARBS will automatically setup my **[Arch Linux](https://wiki.archlinux.org/title/Installation_guide)** configuration.
 
